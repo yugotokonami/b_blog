@@ -1,4 +1,6 @@
-<div class="header-title">B-blog</div>
+<div class="header-title">
+<%= link_to 'B-blog', root_path, class:"form-header-text" %>
+</div>
 
 <div class="articles-main">
   <%= form_with local: true do |f| %>
@@ -18,15 +20,15 @@
   </div>
 
   <div class="new-articles">
-    <div class="weight-bold-text">
+    <%# <div class="weight-bold-text">
       Title
-    </div>
-    <%= f.text_field :title, class:"articles-text", id:"article-name", placeholder:"記事タイトル" %>
+    </div> %>
+    <%= f.text_field :title, class:"articles-title", id:"article-name", placeholder:"記事タイトル" %>
     <div class="articles-explain">
-      <div class="weight-bold-text">
+      <%# <div class="weight-bold-text">
         Book Article
-      </div>
-      <%= f.text_area :text, class:"articles-text", id:"article-info", placeholder:"読んだ本の感想または説明" %>
+      </div> %>
+      <%= f.text_area :text, class:"articles-text", id:"article-info", placeholder:"読んだ本の感想・説明" %>
     </div>
   </div>
 
