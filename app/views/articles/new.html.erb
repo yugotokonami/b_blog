@@ -3,7 +3,7 @@
 </div>
 
 <div class="articles-main">
-  <%= form_with local: true do |f| %>
+  <%= form_with model: @article, local: true do |f| %>
 
   <div class="img-upload">
     <div class="img-text">
@@ -30,7 +30,10 @@
       </div> %>
       <%= f.text_area :text, class:"articles-text", id:"article-info", placeholder:"読んだ本の感想・説明" %>
     </div>
-  </div>
 
+    <div class="actions">
+      <%= f.submit "Post" ,class:"register-btn" %>
+    </div>
+  </div>
   <% end %>
 </div>
