@@ -1,0 +1,17 @@
+.user-name {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: serif;
+  line-height: 32px;
+  margin-right: 3vw;
+  color: #212221;
+}
+
+.logout {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: serif;
+  line-height: 32px;
+  margin-right: 2vw;
+  color: #212221;
+}
