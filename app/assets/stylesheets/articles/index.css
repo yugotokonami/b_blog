@@ -43,3 +43,33 @@
   margin-right: 2vw;
   color: #212221;
 }
+
+.main {
+  margin: 20px 20vw;
+}
+
+.list {
+  font-size: 22px;
+  font-family: serif;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px;
+  padding: 10px;
+  color: #212221;
+}
+
+.article-img-content {
+}
+
+.article-img {
+  width: 33vh;
+  height: 33vh;
+}
+
+.article-info {
+}
+
+.article-name {
+  text-align: center;
+}
