@@ -1,0 +1,57 @@
+.header-title {
+  text-align: center;
+}
+
+.articles-main {
+  font-size: 18px;
+  font-family: serif;
+  text-align: center;
+  background-color: #f4f9f4;
+  padding: 10vh 15vw;
+}
+
+.img-upload {
+  padding: 3vh 0;
+}
+
+.img-text {
+  font-size: 20px;
+}
+
+.articles-detail {
+  padding: 3vh 0;
+}
+
+.weight-bold-text {
+  font-size: 25px;
+  margin: 10px 0;
+}
+
+.select-box {
+  border: 0px none;
+  background-color: #f4f9f1d4;
+  border-radius: 4px;
+}
+
+.new-articles {
+  margin-top: 35px;
+}
+
+.articles-title {
+  border: 0px none;
+  background-color: #f4f9f1d4;
+  font-size: 35px;
+  padding: 16px 16px 8px;
+}
+
+.articles-explain {
+  margin-top: 30px;
+}
+
+.articles-text {
+  border: 0px none;
+  background-color: #f4f9f1d4;
+  font-size: 35px;
+  padding: 16px 16px 8px;
+  margin-top: 60px;
+}

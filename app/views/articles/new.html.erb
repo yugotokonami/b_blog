@@ -1,0 +1,39 @@
+<div class="header-title">
+<%= link_to 'B-blog', root_path, class:"form-header-text" %>
+</div>
+
+<div class="articles-main">
+  <%= form_with model: @article, local: true do |f| %>
+
+  <div class="img-upload">
+    <div class="img-text">
+     本の画像
+    </div>
+    <%= f.file_field :image, id:"article-image" %>
+  </div>
+
+  <div class="articles-detail">
+    <div class="weight-bold-text">
+      Category
+    </div>
+    <%= f.collection_select(:category_id, Category.all, :id, :name, {}, {class:"select-box", id:"article-category"}) %>
+  </div>
+
+  <div class="new-articles">
+    <%# <div class="weight-bold-text">
+      Title
+    </div> %>
+    <%= f.text_field :title, class:"articles-title", id:"article-name", placeholder:"記事タイトル" %>
+    <div class="articles-explain">
+      <%# <div class="weight-bold-text">
+        Book Article
+      </div> %>
+      <%= f.text_area :text, class:"articles-text", id:"article-info", placeholder:"読んだ本の感想・説明" %>
+    </div>
+
+    <div class="actions">
+      <%= f.submit "Post" ,class:"register-btn" %>
+    </div>
+  </div>
+  <% end %>
+</div>
