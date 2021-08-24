@@ -12,12 +12,20 @@
   <div class="title-content">B-blog</div>
 </div>
 
-<ul class="list">
+<div class="main">
   <% @articles.each do |article| %>
-    <li class="list">
-      <%= article.title %>
-      <div class="">
-        <%= image_tag article.image %>
-    </li>
-</ul>
-<% end %>
+  <li class="list">
+    <div class="article-img-content">
+      <%= image_tag article.image, class:"article-img"%>
+    </div>
+    <div class="article-info">
+      <h1 class="article-name">
+        <%= article.title%>
+      </h1>
+      <h1 class="article-name">
+        <%= article.category.name%>
+      </h1>
+    </div>
+  </li>
+  <% end %>
+</div>
