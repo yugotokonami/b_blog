@@ -11,5 +11,13 @@
   </ul>
   <div class="title-content">B-blog</div>
 </div>
-<div class="article-panel">
-</div>
+
+<ul class="list">
+  <% @articles.each do |article| %>
+    <li class="list">
+      <%= article.title %>
+      <div class="">
+        <%= image_tag article.image %>
+    </li>
+</ul>
+<% end %>
