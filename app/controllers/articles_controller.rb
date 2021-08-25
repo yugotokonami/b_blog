@@ -1,7 +1,7 @@
 class ArticlesController < ApplicationController
 
   def index
-    @articles = Article.all
+    @articles = Article.order("created_at DESC")
   end
 
   def new
@@ -17,6 +17,19 @@ class ArticlesController < ApplicationController
     end
   end
 
+  def edit
+    @article = Article.find(params[:id])
+  end
+
+  def update
+    @article = Article.find(params[:id])
+    @article.update(article_params)
+    if @article.valid?
+      redirect_to article_path(@article.id)
+    else
+      render :edit
+    end
+  end
 
   def show
     @article = Article.find(params[:id])
