@@ -15,6 +15,7 @@
 <div class="main">
   <% @articles.each do |article| %>
   <li class="list">
+    <%= link_to article_path(article.id), class:"article-name", method: :get do %>
     <div class="article-img-content">
       <%= image_tag article.image, class:"article-img"%>
     </div>
@@ -26,6 +27,7 @@
         <%= article.category.name%>
       </h1>
     </div>
+    <% end %>
   </li>
   <% end %>
 </div>

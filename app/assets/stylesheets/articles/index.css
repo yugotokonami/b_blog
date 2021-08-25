@@ -49,27 +49,28 @@
 }
 
 .list {
-  font-size: 22px;
-  font-family: serif;
   display: inline-flex;
   flex-direction: column;
   align-items: center;
   margin: 5px;
   padding: 10px;
-  color: #212221;
 }
 
-.article-img-content {
-}
+/* .article-img-content {
+} */
 
 .article-img {
   width: 33vh;
   height: 33vh;
 }
 
-.article-info {
-}
+/* .article-info {
+} */
 
 .article-name {
+  text-decoration: none;
   text-align: center;
+  color: #212221;
+  font-size: 22px;
+  font-family: serif;
 }
