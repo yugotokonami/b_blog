@@ -60,8 +60,8 @@
 } */
 
 .article-img {
-  width: 33vh;
-  height: 33vh;
+  width: 30vh;
+  height: 30vh;
 }
 
 /* .article-info {
@@ -71,6 +71,6 @@
   text-decoration: none;
   text-align: center;
   color: #212221;
-  font-size: 22px;
+  font-size: 20px;
   font-family: serif;
 }
