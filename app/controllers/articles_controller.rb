@@ -15,9 +15,11 @@ class ArticlesController < ApplicationController
     else
       render :new
     end
+  end
 
-    def show
-    end
+
+  def show
+    @article = Article.find(params[:id])
   end
 
   private
