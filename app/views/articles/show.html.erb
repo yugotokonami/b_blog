@@ -1,7 +1,7 @@
 <% if user_signed_in? && current_user.id == @article.user_id %>
   <div class="top-botton">
     <%= link_to "Edit", edit_article_path(@article.id), method: :get, class:"edit-btn" %>
-    <%= link_to "Delete", "#", method: :delete, class:"delete-btn" %>
+    <%= link_to "Delete", article_path(@article.id), method: :delete, class:"delete-btn" %>
   </div>
 <% end %>
 
