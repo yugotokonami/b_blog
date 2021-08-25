@@ -1,4 +1,5 @@
 class ArticlesController < ApplicationController
+  before_action :set_article, only: [:destroy, :edit, :update, :show]
 
   def index
     @articles = Article.order("created_at DESC")
@@ -17,12 +18,15 @@ class ArticlesController < ApplicationController
     end
   end
 
+  def destroy
+    @article.destroy
+    redirect_to root_path
+  end
+
   def edit
-    @article = Article.find(params[:id])
   end
 
   def update
-    @article = Article.find(params[:id])
     @article.update(article_params)
     if @article.valid?
       redirect_to article_path(@article.id)
@@ -32,13 +36,16 @@ class ArticlesController < ApplicationController
   end
 
   def show
-    @article = Article.find(params[:id])
   end
 
   private
 
   def article_params
     params.require(:article).permit(:image, :title, :text, :category_id, ).merge(user_id: current_user.id)
+  end
+
+  def set_article
+    @article = Article.find(params[:id])
   end
 
 end
