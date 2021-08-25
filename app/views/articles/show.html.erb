@@ -1,3 +1,10 @@
+<% if user_signed_in? && current_user.id == @article.user_id %>
+  <div class="top-botton">
+    <%= link_to "Edit", edit_article_path(@article.id), method: :get, class:"edit-btn" %>
+    <%= link_to "Delete", "#", method: :delete, class:"delete-btn" %>
+  </div>
+<% end %>
+
 <div class="header-title">
 <%= link_to 'B-blog', root_path, class:"form-header-text" %>
 </div>

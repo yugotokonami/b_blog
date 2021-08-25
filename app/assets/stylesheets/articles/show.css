@@ -21,8 +21,8 @@
   font-size: 35px;
 }
 
-.article-img-content {
-}
+/* .article-img-content {
+} */
 
 .article-box-img {
   height: 70vh;
@@ -36,8 +36,26 @@
   margin: 40px 0;
 }
 
-.article-box-category {
+/* .article-box-category {
+} */
+
+/* .article-box-text {
+} */
+
+.edit-btn {
+  text-decoration: none;
+  font-size: 25px;
+  font-family: serif;
+  line-height: 32px;
+  margin-right: 3vw;
+  color: #212221;
 }
 
-.article-box-text {
+.delete-btn {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: serif;
+  line-height: 32px;
+  margin-right: 2vw;
+  color: #212221;
 }
