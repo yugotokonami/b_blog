@@ -38,6 +38,7 @@
 }
 
 .articles-title {
+  font-family: serif;
   border: 0px none;
   background-color: #f4f9f1d4;
   font-size: 35px;
@@ -49,6 +50,7 @@
 }
 
 .articles-text {
+  font-family: serif;
   border: 0px none;
   background-color: #f4f9f1d4;
   font-size: 35px;
