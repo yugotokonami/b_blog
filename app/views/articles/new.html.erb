@@ -5,6 +5,8 @@
 <div class="articles-main">
   <%= form_with model: @article, local: true do |f| %>
 
+  <%# render 'shared/error_messages', model: f.object %>
+
   <div class="img-upload">
     <div class="img-text">
      本の画像
