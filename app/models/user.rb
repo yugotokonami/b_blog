@@ -8,3 +8,7 @@ class User < ApplicationRecord
   end
   has_many :articles
 end
+
+# presence: {message: "name can't be blank"}
+# presence: {message: "password can't be blank"}
+# presence: {message: "password confirmation can't be blank"}
