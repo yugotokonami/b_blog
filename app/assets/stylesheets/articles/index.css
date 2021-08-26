@@ -64,10 +64,10 @@
   height: 30vh;
 }
 
-/* .article-info {
-} */
+.article-info {
+}
 
-.article-name {
+.article-index-name {
   text-decoration: none;
   text-align: center;
   color: #212221;

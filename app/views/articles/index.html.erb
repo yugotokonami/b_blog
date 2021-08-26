@@ -14,17 +14,17 @@
 <div class="main">
   <% @articles.each do |article| %>
   <li class="list">
-    <%= link_to article_path(article.id), class:"article-name", method: :get do %>
+    <%= link_to article_path(article.id), class:"article-index-name", method: :get do %>
     <div class="article-img-content">
       <%= image_tag article.image, class:"article-img"%>
     </div>
     <div class="article-info">
-      <h1 class="article-name">
+      <div class="article-index-name">
         <%= article.title%>
-      </h1>
-      <h1 class="article-name">
+      </div>
+      <div class="article-index-name">
         <%= article.category.name%>
-      </h1>
+      </div>
     </div>
     <% end %>
   </li>
