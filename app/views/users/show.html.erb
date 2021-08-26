@@ -19,10 +19,10 @@
     <div class="contents-row">
       <% @articles.each do |article| %>
         <%= image_tag article.image, class:"article-img" %>
-        <h1 class="article-name">
+        <h1 class="article-my-name">
           <%= article.title%>
         </h1>
-        <h1 class="article-name">
+        <h1 class="article-my-name">
           <%= article.category.name%>
         </h1>
       <% end %>
