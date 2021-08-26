@@ -1,3 +1,30 @@
-<div class="header-title">
-<%= link_to 'B-blog', root_path, class:"form-header-text" %>
+<div class="title">
+  <ul class="top-botton">
+    <% if user_signed_in? %>
+    <%# <li><%= link_to current_user.name, "#", class:"user-name" %></li>
+    <li><%= link_to 'Logout', destroy_user_session_path, method: :delete, class:"logout"%></li>
+    <% end %>
+  </ul>
+    <div class="header-title">
+      <%= link_to 'B-blog', root_path, class:"my-header-text" %>
+    </div>
+</div>
+
+<div class="second-header">
+  My Page
+  <div class="second-header-box">
+    <div class="second-header-text">
+      <%= @user.name %>
+    </div>
+    <div class="contents-row">
+      <% @articles.each do |article| %>
+        <%= image_tag article.image, class:"article-img" %>
+        <h1 class="article-name">
+          <%= article.title%>
+        </h1>
+        <h1 class="article-name">
+          <%= article.category.name%>
+        </h1>
+      <% end %>
+  </div>
 </div>
