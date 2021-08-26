@@ -1,0 +1,32 @@
+.my-header-text {
+  text-decoration: none !important;
+  color: #243d0b;
+  font-family: serif;
+  font-size: 12vh;
+}
+
+.second-header {
+  color: #243d0b;
+  background-color: #f8f8f8;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5vh 0;
+  font-size: 35px;
+  font-family: serif;
+}
+
+.second-header-box {
+  font-family: serif;
+  background-color: #FFF;
+  width: 70vw;
+  min-width: 1200px;
+  padding: 10vh 15vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.second-header-text {
+}
