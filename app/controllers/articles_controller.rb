@@ -1,5 +1,5 @@
 class ArticlesController < ApplicationController
-  before_action :set_article, only: [:destroy, :edit, :update, :show]
+  before_action :set_article, only: [:edit, :update, :show]
 
   def index
     @articles = Article.order("created_at DESC")
@@ -19,8 +19,9 @@ class ArticlesController < ApplicationController
   end
 
   def destroy
-    @article.destroy
-    redirect_to root_path
+    article = Article.find(params[:id])
+    article.destroy
+    # redirect_to root_path
   end
 
   def edit
