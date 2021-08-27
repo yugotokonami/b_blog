@@ -1,0 +1,49 @@
+.article-delete {
+  text-align: center;
+  background-color: #cbd1d4;
+}
+
+.delete-header-text {
+  text-decoration: none !important;
+  color: #243d0b;
+  font-family: serif;
+  font-size: 12vh;
+}
+
+.delete-main {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 660px;
+}
+
+.success {
+  margin: 20px 0;
+  padding: 30px;
+  box-shadow: 0 0 10px rgb(41 41 41 / 20%);
+  background-color: white;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: serif;
+  font-size: 23px;
+}
+}
+
+.delete-text {
+}
+
+.return-btn {
+  margin-top: 23px;
+  padding: 8px 20px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  color: #243d0b;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 3px;
+  display: inline-block;
+  text-decoration: none;
+  background-color: #cbd1d4;
+}

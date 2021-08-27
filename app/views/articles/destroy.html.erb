@@ -1,8 +1,13 @@
-<div class="delete-main">
-  <div class="success">
-    <div class="delete-text">
-      削除完了しました
+<div class="article-delete">
+  <%# <div class="header-title"> %>
+      <%= link_to 'B-blog', root_path, class:"delete-header-text" %>
+  <%# </div> %>
+  <div class="delete-main">
+    <div class="success">
+      <div class="delete-text">
+        削除完了しました
+      </div>
+        <%= link_to 'トップページに戻る', root_path, class: "return-btn" %>
     </div>
-    <%= link_to 'トップページに戻る', root_path, class: "return-btn" %>
   </div>
 </div>
