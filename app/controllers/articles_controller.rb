@@ -1,5 +1,5 @@
 class ArticlesController < ApplicationController
-  before_action :set_article, only: [:destroy, :edit, :update, :show]
+  before_action :set_article, only: [:edit, :show]
 
   def index
     @articles = Article.order("created_at DESC")
@@ -19,17 +19,19 @@ class ArticlesController < ApplicationController
   end
 
   def destroy
-    @article.destroy
-    redirect_to root_path
+    article = Article.find(params[:id])
+    article.destroy
+    # redirect_to root_path
   end
 
   def edit
   end
 
   def update
-    @article.update(article_params)
-    if @article.valid?
-      redirect_to article_path(@article.id)
+    article = Article.find(params[:id])
+    article.update(article_params)
+    if article.valid?
+      redirect_to article_path(article.id)
     else
       render :edit
     end
@@ -45,7 +47,11 @@ class ArticlesController < ApplicationController
   end
 
   def set_article
-    @article = Article.find(params[:id])
+    begin
+      @article = Article.find(params[:id])
+    rescue
+      render :destroy
+    end
   end
 
 end
