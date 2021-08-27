@@ -17,8 +17,15 @@
   align-items: center;
 }
 
+.article-user-name {
+  font-size: 25px;
+  font-family: serif;
+  text-align: right;
+}
+
 .article-name {
   font-size: 35px;
+  font-family: serif;
 }
 
 /* .article-img-content {
