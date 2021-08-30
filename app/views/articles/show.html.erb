@@ -47,5 +47,13 @@
         </div>
       <% end %>
     <% end %>
+    <ul class="comments-lists">
+      <% @comments.each do |comment| %>
+        <li class="comments-list">
+          <%= comment.text %>
+          <%= link_to comment.user.name, "#" %>
+        </li>
+      <% end %>
+    </li>
   </div>
 </div>
