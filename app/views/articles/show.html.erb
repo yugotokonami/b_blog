@@ -40,10 +40,10 @@
     <% if user_signed_in? %>
       <%= form_with(model: [@article, @comment], local: true) do |f| %>
         <div class="comment-field">
-          <%= f.text_field :text, class: "input-default", id: "comment_text", placeholder: "コメント" %>
+          <%= f.text_field :text, class: "input-default", id: "comment_text", placeholder: "Comment" %>
         </div>
-        <div class="action">
-          <%= f.submit "Submit" %>
+        <div class="actions">
+          <%= f.submit "Submit", class: "comment-btn" %>
         </div>
       <% end %>
     <% end %>
@@ -51,7 +51,7 @@
       <% @comments.each do |comment| %>
         <li class="comments-list">
           <%= comment.text %>
-          <%= link_to comment.user.name, "#" %>
+          <%= link_to comment.user.name, "#", class: "comment-user" %>
         </li>
       <% end %>
     </li>
