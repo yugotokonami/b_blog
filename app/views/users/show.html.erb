@@ -18,6 +18,7 @@
     </div>
     <div class="contents-row">
       <% @articles.each do |article| %>
+      <%= link_to article_path(article.id), class:"article-index-name", method: :get do %>
         <%= image_tag article.image, class:"article-img" %>
         <h1 class="article-my-name">
           <%= article.title%>
@@ -25,6 +26,7 @@
         <h1 class="article-my-name">
           <%= article.category.name%>
         </h1>
+      <% end %>
       <% end %>
   </div>
 </div>
