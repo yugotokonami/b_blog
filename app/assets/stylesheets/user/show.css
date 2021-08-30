@@ -1,11 +1,11 @@
-/* .my-header-text {
+.my-header-text {
   text-decoration: none !important;
   color: #243d0b;
   font-family: serif;
   font-size: 12vh;
-} */
+}
 
-/* .second-header {
+.second-header {
   color: #243d0b;
   background-color: #f8f8f8;
   width: 100vw;
@@ -15,9 +15,9 @@
   padding: 5vh 0;
   font-size: 35px;
   font-family: serif;
-} */
+}
 
-/* .second-header-box {
+.second-header-box {
   font-family: serif;
   background-color: #FFF;
   width: 70vw;
@@ -26,12 +26,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-} */
+}
 
 /* .second-header-text {
 } */
 
-/* .article-my-name {
+.article-my-name {
   text-align: center;
   font-size: 20px;
-} */
+}
