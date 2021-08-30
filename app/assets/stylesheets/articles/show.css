@@ -1,13 +1,13 @@
-.article-show {
+/* .article-show {
   background-color: #f8f8f8;
   width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 5vh 0;
-}
+} */
 
-.article-box {
+/* .article-box {
   background-color: #FFF;
   width: 70vw;
   min-width: 1200px;
@@ -15,33 +15,33 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-}
+} */
 
-.article-user-name {
+/* .article-user-name {
   font-size: 25px;
   font-family: serif;
   text-align: right;
-}
+} */
 
-.article-name {
+/* .article-name {
   font-size: 35px;
   font-family: serif;
-}
+} */
 
 /* .article-img-content {
 } */
 
-.article-box-img {
+/* .article-box-img {
   height: 70vh;
   width: 40vw;
-}
+} */
 
-.article-box-explain {
+/* .article-box-explain {
   font-family: serif;
   font-size: 25px;
   color: #212221;
   margin: 40px 0;
-}
+} */
 
 /* .article-box-category {
 } */
@@ -49,20 +49,20 @@
 /* .article-box-text {
 } */
 
-.edit-btn {
+/* .edit-btn {
   text-decoration: none;
   font-size: 25px;
   font-family: serif;
   line-height: 32px;
   margin-right: 3vw;
   color: #212221;
-}
+} */
 
-.delete-btn {
+/* .delete-btn {
   text-decoration: none;
   font-size: 20px;
   font-family: serif;
   line-height: 32px;
   margin-right: 2vw;
   color: #212221;
-}
+} */
