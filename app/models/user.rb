@@ -7,6 +7,7 @@ class User < ApplicationRecord
     validates :password_confirmation
   end
   has_many :articles
+  has_many :comments
 end
 
 # presence: {message: "name can't be blank"}
