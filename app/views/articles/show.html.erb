@@ -36,4 +36,16 @@
   <%# <div class="action"> %>
     <%# <%= link_to 'Return', user_path(current_user.id), class:"return-btn" %>
   <%# </div> %>
+  <div class="article-comments">
+    <% if user_signed_in? %>
+      <%= form_with(model: [@article, @comment], local: true) do |f| %>
+        <div class="comment-field">
+          <%= f.text_field :text, class: "input-default", id: "comment_text", placeholder: "コメント" %>
+        </div>
+        <div class="action">
+          <%= f.submit "Submit" %>
+        </div>
+      <% end %>
+    <% end %>
+  </div>
 </div>
