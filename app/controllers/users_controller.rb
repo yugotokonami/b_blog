@@ -4,4 +4,12 @@ class UsersController < ApplicationController
     @name = current_user.name
     @articles = @user.articles
   end
+
+  def edit
+    @article = Article.find(params[:id])
+  end
+
+  def update
+  end
+
 end
