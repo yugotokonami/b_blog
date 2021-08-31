@@ -13,7 +13,7 @@
 
 <div class="main">
   <% @articles.each do |article| %>
-  <li class="list">
+  <div class="list">
     <div class="article-index-name">
       <%= article.user.name %>
     </div>
@@ -30,6 +30,6 @@
         </div>
       </div>
       <% end %>
-  </li>
+  </div>
   <% end %>
 </div>
