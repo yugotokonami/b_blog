@@ -28,6 +28,9 @@
     <div class="actions">
       <%= f.submit "Edit" ,class:"register-btn" %>
     </div>
+    <div class="actions">
+      <%= link_to 'Return', article_path(@article.id), class:"return-btn" %>
+    </div>
   </div>
   <% end %>
 </div>
