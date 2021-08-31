@@ -1,7 +1,7 @@
 class ArticlesController < ApplicationController
   before_action :authenticate_user!, except: [:index, :show]
   before_action :set_article, only: [:edit, :show]
-  before_action :move_to_index, except: [:index, :new, :create, :show,]
+  before_action :move_to_index, except: [:index, :new, :create, :show]
 
   def index
     @articles = Article.order("created_at DESC")
@@ -51,11 +51,11 @@ class ArticlesController < ApplicationController
   end
 
   def set_article
-    begin
+    # begin
       @article = Article.find(params[:id])
-    rescue
-      render :destroy
-    end
+    # rescue
+    #   render :destroy
+    # end
   end
 
   def move_to_index
