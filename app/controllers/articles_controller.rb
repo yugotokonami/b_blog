@@ -1,6 +1,6 @@
 class ArticlesController < ApplicationController
   before_action :authenticate_user!, except: [:index, :show]
-  before_action :set_article, only: [:edit, :show, :destroy]
+  before_action :set_article, only: [:edit, :show, :destroy, :update]
   before_action :move_to_index, except: [:index, :new, :create, :show]
 
   def index
@@ -30,10 +30,10 @@ class ArticlesController < ApplicationController
   end
 
   def update
-    article = Article.find(params[:id])
-    article.update(article_params)
-    if article.valid?
-      redirect_to article_path(article.id)
+    # article = Article.find(params[:id])
+    @article.update(article_params)
+    if @article.valid?
+      redirect_to article_path(@article.id)
     else
       render :edit
     end
