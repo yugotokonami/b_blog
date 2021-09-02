@@ -1,8 +1,15 @@
+.my-header-title {
+  text-align: center;
+}
+
 .my-header-text {
+  left: 38%;
+  position: absolute;
   text-decoration: none !important;
-  color: black;
+  color: white;
   font-family: serif;
   font-size: 12vh;
+  text-transform: uppercase;
 }
 
 .second-header {
