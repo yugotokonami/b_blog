@@ -8,7 +8,13 @@
     <li><%= link_to 'Sign up', new_user_registration_path, class: "sign-up" %>
     <% end %>
   </ul>
-  <div class="title-content">B-blog</div>
+  <div class="box">
+    <div class='wave -one'></div>
+    <div class='wave -two'></div>
+    <div class='wave -three'></div>
+    <div class="title-content">B-blog</div>
+  </div>
+</div>
 
   <div class="main">
     <% @articles.each do |article| %>
@@ -32,4 +38,3 @@
     </div>
    <% end %>
   </div>
-</div>
