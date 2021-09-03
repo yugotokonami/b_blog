@@ -171,3 +171,59 @@
   text-align: center;
   margin-top: 20px;
 }
+
+// Return（削除）ボタン
+.sub-btn {
+  padding: 13px;
+  text-decoration: none !important;
+  outline: none;
+  height: 40px;
+  width: 130px;
+  text-align: center;
+  border-radius: 40px;
+  background-color: #fff;
+  border: 2px solid #016a1f;
+  color: #016a1f;
+  letter-spacing: 1px;
+  text-shadow: 0;
+  font-family: serif;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  &:hover {
+    color: white;
+    background-color: #016a1f;
+  }
+  &:active {
+    letter-spacing: 2px;
+  }
+}
+
+// Return（戻る）ボタン
+.return-btn {
+  padding: 10px 17px;
+  text-decoration: none !important;
+  outline: none;
+  height: 40px;
+  width: 130px;
+  text-align: center;
+  border-radius: 40px;
+  background-color: #fff;
+  border: 2px solid #016a1f;
+  color: #016a1f;
+  letter-spacing: 1px;
+  text-shadow: 0;
+  font-family: serif;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  &:hover {
+    color: white;
+    background-color: #016a1f;
+  }
+  &:active {
+    letter-spacing: 2px;
+  }
+}
