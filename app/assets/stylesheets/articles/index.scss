@@ -28,6 +28,7 @@
 }
 
 .login {
+  position: relative;
   text-decoration: none;
   font-size: 20px;
   font-family: serif;
@@ -36,13 +37,48 @@
   color: #212221;
 }
 
+.login::after {
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 2px;
+  background-color: #333;
+  transform: scale(0, 1);
+  transform-origin: left top;
+  transition: tramsform .3s;
+}
+
+.login:hover::after {
+  transform: scale(1, 1);
+}
+
 .sign-up {
+  position: relative;
   text-decoration: none;
   font-size: 17px;
   font-family: serif;
   line-height: 32px;
   margin-right: 3vw;
   color: #212221;
+}
+
+.sign-up::after {
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 2px;
+  background-color: #333;
+  transform: scale(0, 1);
+  transform-origin: left top;
+  transition: tramsform .3s;
+}
+
+.sign-up:hover::after {
+  transform: scale(1, 1);
 }
 
 .new-article {
