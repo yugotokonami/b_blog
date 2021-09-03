@@ -16,9 +16,9 @@
   </div>
 </div>
 
-  <div class="main">
+  <ul class="main">
     <% @articles.each do |article| %>
-    <div class="list">
+    <li class="list">
       <div class="article-index-name">
         <%= article.user.name %>
       </div>
@@ -35,6 +35,6 @@
           </div>
         </div>
         <% end %>
-    </div>
+    </li>
    <% end %>
-  </div>
+  </ul>

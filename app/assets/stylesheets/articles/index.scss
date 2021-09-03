@@ -162,32 +162,29 @@
   transform: scale(1, 1);
 }
 
+// 記事一覧表示
+
 .main {
-  /* width: 100vw; */
-  padding: 30px;
-  margin: 20px 20vw;
-  /* justify-content: center; */
+  width: 95vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .list {
   display: inline-flex;
   flex-direction: column;
-  align-items: center;
-  margin: 5px;
-  /* padding: 1vw; */
-  padding: 10px;
 }
 
-/* .article-img-content {
-} */
+.main>.list {
+  width: 37vh;
+  padding: 1vw;
+}
 
 .article-img {
   width: 30vh;
   height: 30vh;
 }
-
-/* .article-info {
-} */
 
 .article-index-name {
   text-decoration: none;
@@ -196,6 +193,8 @@
   font-size: 20px;
   font-family: serif;
 }
+
+// 記事一覧表示
 
 .box {
   border-radius: 5px;
