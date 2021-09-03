@@ -30,18 +30,3 @@
 
 /* .delete-text {
 } */
-
-.return-btn {
-  align-items: center;
-  margin-top: 23px;
-  padding: 8px 20px;
-  font-size: 14px;
-  border: 1px solid #ccc;
-  color: #243d0b;
-  font-weight: bold;
-  text-align: center;
-  border-radius: 3px;
-  display: inline-block;
-  text-decoration: none;
-  background-color: #cbd1d4;
-}
