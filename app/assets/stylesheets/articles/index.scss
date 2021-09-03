@@ -127,3 +127,20 @@
   from { transform: rotate(0deg); }
   from { transform: rotate(360deg); }
 }
+
+// 新規登録・ログイン・新規投稿・編集ボタン
+
+.actions {
+  font-family: serif;
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px 16px 8px;
+}
+
+.main-btn {
+  color: #243d0b;
+  border: 1px solid #ccc;
+  background-color: #cbd1d4;
+  border-radius: 4px;
+  font-size: 20px;
+}
