@@ -194,6 +194,21 @@
   font-family: serif;
 }
 
+// アニメーション要素のスタイル
+.animation {
+  opacity: 0;
+  visibility: hidden;
+  transition: 1s;
+  transform: translateY(30px);
+}
+
+// アニメーション要素までスクロールした時のスタイル
+.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
 // 記事一覧表示
 
 .box {
