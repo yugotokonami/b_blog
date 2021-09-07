@@ -1,9 +1,10 @@
+// タイトル部分
 .title {
   background-color: #28cc95;
   width: 100%;
   height: 200px;
   // border-radius: 5px;
-  position: relative;
+  // position: relative;
   overflow: hidden;
   transform: translate3d(0, 0, 0);
 }
@@ -160,6 +161,66 @@
   transform: scale(1, 1);
 }
 
+.box {
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.wave {
+  justify-content: center;
+  opacity: .4;
+  position: absolute;
+  top: 3%;
+  left: 46%;
+  background: #43a382;
+  width: 500px;
+  height: 500px;
+  margin-left: -250px;
+  margin-top: -250px;
+  transform-origin: 60%;
+  border-radius: 40%;
+  animation: drift 3000ms infinite linear;
+}
+
+.wave.-two {
+  justify-content: center;
+  animation: drift 7000ms infinite linear;
+  opacity: .1;
+  background: #72d5b4;
+}
+
+.wave.-three {
+  justify-content: center;
+  background-color: #67ba9e;
+  animation: drift 5000ms infinite linear;
+}
+
+@keyframes drift {
+  from { transform: rotate(0deg); }
+  from { transform: rotate(360deg); }
+}
+// タイトル部分 //
+
+// セカンドタイトル
+// .second {
+//   margin-top: 20%;
+//   // justify-content: center;
+//   // align-items: center;
+//   background-color: #28cc95;
+//   width: 100%;
+//   height: 500px;
+// }
+
+.second-title {
+  padding-top: 40%;
+  padding-bottom: 30%;
+  font-size: 12vh;
+  font-family: serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+// セカンドタイトル //
+
 // 記事一覧表示
 
 .article {
@@ -203,7 +264,7 @@
 .animation {
   opacity: 0;
   visibility: hidden;
-  transition: 1s;
+  transition: 5s;
   transform: translateY(30px);
 }
 
@@ -214,46 +275,8 @@
   transform: translateY(0);
 }
 
-// 記事一覧表示
+// 記事一覧表示 //
 
-.box {
-  border-radius: 5px;
-  overflow: hidden;
-}
-
-.wave {
-  justify-content: center;
-  opacity: .4;
-  position: absolute;
-  top: 3%;
-  left: 46%;
-  background: #43a382;
-  width: 500px;
-  height: 500px;
-  margin-left: -250px;
-  margin-top: -250px;
-  transform-origin: 60%;
-  border-radius: 40%;
-  animation: drift 3000ms infinite linear;
-}
-
-.wave.-two {
-  justify-content: center;
-  animation: drift 7000ms infinite linear;
-  opacity: .1;
-  background: #72d5b4;
-}
-
-.wave.-three {
-  justify-content: center;
-  background-color: #67ba9e;
-  animation: drift 5000ms infinite linear;
-}
-
-@keyframes drift {
-  from { transform: rotate(0deg); }
-  from { transform: rotate(360deg); }
-}
 
 // 新規登録・ログイン・新規投稿・編集ボタン
 
