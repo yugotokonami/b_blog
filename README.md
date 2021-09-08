@@ -10,6 +10,9 @@
 
 ## アプリ機能一覧
 * トップページ
+  * [タイトル画面](https://gyazo.com/5d99f3952f1cc49deedcf5a04ca24b4b)
+  * [タイトル画面2](https://gyazo.com/6d0ada8bdb02074a6fce70204863da93)
+  * [記事一覧表示画面]()
 * ユーザー登録・ログイン機能(devise)
   * [新規投稿](https://gyazo.com/837ebd2b222afc290653c7b0c5f3e58a)
   * [ログイン](https://gyazo.com/86be96d6df2e9f89c0d07d5c068f49ec)
