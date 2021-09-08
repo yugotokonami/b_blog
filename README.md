@@ -43,7 +43,7 @@
 [![Image from Gyazo](https://i.gyazo.com/a01ea901dcba997dacbb916aaa46a407.gif)](https://gyazo.com/a01ea901dcba997dacbb916aaa46a407)
 
 * コメント機能
-[![Image from Gyazo](https://i.gyazo.com/fe3394f5b755a049123784bb38826e8e.gif)](https://gyazo.com/fe3394f5b755a049123784bb38826e8e)
+[![Image from Gyazo](https://i.gyazo.com/96acc0d13436bca4adb3b2c3d86a7cb2.gif)](https://gyazo.com/96acc0d13436bca4adb3b2c3d86a7cb2)
 
 * ログアウト機能
 [![Image from Gyazo](https://i.gyazo.com/9b87ce39d7ae1eaf7128f83f5402f4af.gif)](https://gyazo.com/9b87ce39d7ae1eaf7128f83f5402f4af)
