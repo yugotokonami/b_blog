@@ -202,22 +202,43 @@
 // タイトル部分 //
 
 // セカンドタイトル
-// .second {
-//   margin-top: 20%;
-//   // justify-content: center;
-//   // align-items: center;
-//   background-color: #28cc95;
-//   width: 100%;
-//   height: 500px;
-// }
-
-.second-title {
+.second {
+  display: flex;
+  justify-content: center;
   padding-top: 40%;
   padding-bottom: 30%;
+}
+
+.second p {
   font-size: 12vh;
   font-family: serif;
   text-transform: uppercase;
-  text-align: center;
+  // text-align: center;
+  letter-spacing: 2px;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid;
+}
+
+.second .second-title {
+  width: 0;
+  animation: type 1.6s steps(14, end) 1500ms infinite alternate,
+             inputcursor 0.7s steps(16) infinite normal;
+}
+
+@keyframes type {
+  to {
+    width: 750px;
+  }
+}
+
+@keyframes inputcursor {
+  from {
+    border-right-color: black;
+  }
+  to {
+    border-right-color: transparent;
+  }
 }
 // セカンドタイトル //
 
