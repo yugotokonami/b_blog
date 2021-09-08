@@ -28,6 +28,8 @@
 
 * RSpec
   * 単体テスト(model)
+    * [ユーザー管理単体テスト](https://gyazo.com3e6783a811470ab12fa2cc96570ad303)
+    * [投稿単体テスト](https://gyazo.com/e44f3cdcb9c81b81080feb4eeb32ca30)
 
 ## 使用技術
 
