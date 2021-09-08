@@ -13,7 +13,7 @@ class Category < ActiveHash::Base
     { id: 11, name: '趣味・実用' },
     { id: 12, name: '教育・自己啓発' },
     { id: 13, name: 'スポーツ・アウトドア' },
-    { id: 14, name: 'onngaku 音楽' },
+    { id: 14, name: '音楽' },
     { id: 15, name: 'コミックス' }
   ]
 
