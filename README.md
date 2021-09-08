@@ -34,6 +34,17 @@
     * [ユーザー管理単体テスト](https://gyazo.com3e6783a811470ab12fa2cc96570ad303)
     * [投稿単体テスト](https://gyazo.com/e44f3cdcb9c81b81080feb4eeb32ca30)
 
+
+## 本番環境
+
+* Basic認証
+  * ID: test
+  * password: 1222
+* [URL](https://b-blog-36388.herokuapp.com/)
+* ログイン情報(テスト用)
+  * e-mail: aaa@aaa.com
+  * password: aaaaaa
+
 ## 使用技術
 
 ### バックエンド
