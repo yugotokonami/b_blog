@@ -10,29 +10,53 @@
 
 ## アプリ機能一覧
 * トップページ
-  * [タイトル画面](https://gyazo.com/5d99f3952f1cc49deedcf5a04ca24b4b)
-  * [タイトル画面2](https://gyazo.com/6d0ada8bdb02074a6fce70204863da93)
-  * [記事一覧表示画面](https://gyazo.com/8bd8288ab9acaa33c0cd5b1734f762b5)
+    * タイトル画面
+    [![Image from Gyazo](https://i.gyazo.com/5d99f3952f1cc49deedcf5a04ca24b4b.gif)](https://gyazo.com/5d99f3952f1cc49deedcf5a04ca24b4b)
+
+  * タイトル画面2
+  [![Image from Gyazo](https://i.gyazo.com/6d0ada8bdb02074a6fce70204863da93.gif)](https://gyazo.com/6d0ada8bdb02074a6fce70204863da93)
+
+  * 記事一覧表示画面
+  [![Image from Gyazo](https://i.gyazo.com/8bd8288ab9acaa33c0cd5b1734f762b5.gif)](https://gyazo.com/8bd8288ab9acaa33c0cd5b1734f762b5)
+
 * ユーザー登録・ログイン機能(devise)
-  * [新規投稿](https://gyazo.com/837ebd2b222afc290653c7b0c5f3e58a)
-  * [ログイン](https://gyazo.com/86be96d6df2e9f89c0d07d5c068f49ec)
-* [投稿機能](https://gyazo.com/4b735ecf9ab08186e8f812c3e73e4f98)
-  * 画像の投稿(ActiveStorage)
-  * カテゴリー選択(ActiveHash)
-* [投稿詳細表示機能](https://gyazo.com/a3c2b635a0abbfb673fbfc322f185d25)
+  * 新規投稿
+  [![Image from Gyazo](https://i.gyazo.com/837ebd2b222afc290653c7b0c5f3e58a.gif)](https://gyazo.com/837ebd2b222afc290653c7b0c5f3e58a)
+
+  * ログイン
+  [![Image from Gyazo](https://i.gyazo.com/86be96d6df2e9f89c0d07d5c068f49ec.gif)](https://gyazo.com/86be96d6df2e9f89c0d07d5c068f49ec)
+
+* 投稿機能
+[![Image from Gyazo](https://i.gyazo.com/4b735ecf9ab08186e8f812c3e73e4f98.gif)](https://gyazo.com/4b735ecf9ab08186e8f812c3e73e4f98)
+
+* 投稿詳細表示機能
+[![Image from Gyazo](https://i.gyazo.com/a3c2b635a0abbfb673fbfc322f185d25.gif)](https://gyazo.com/a3c2b635a0abbfb673fbfc322f185d25)
+
 * 編集・削除機能
-  * [編集](https://gyazo.com/b24b2e0f8ef27eb484e31b4ed66f602b)
-  * [削除](https://gyazo.com/a24e06a04c0fe75dec5b60dd7164b5e0)
-* [マイページ機能](https://gyazo.com/a01ea901dcba997dacbb916aaa46a407)
-* [コメント機能](https://gyazo.com/fe3394f5b755a049123784bb38826e8e)
-* [ログアウト機能](https://gyazo.com/9b87ce39d7ae1eaf7128f83f5402f4af)
+  * 編集
+  [![Image from Gyazo](https://i.gyazo.com/b24b2e0f8ef27eb484e31b4ed66f602b.gif)](https://gyazo.com/b24b2e0f8ef27eb484e31b4ed66f602b)
+
+  * 削除
+  [![Image from Gyazo](https://i.gyazo.com/a24e06a04c0fe75dec5b60dd7164b5e0.gif)](https://gyazo.com/a24e06a04c0fe75dec5b60dd7164b5e0)
+
+* マイページ機能
+[![Image from Gyazo](https://i.gyazo.com/a01ea901dcba997dacbb916aaa46a407.gif)](https://gyazo.com/a01ea901dcba997dacbb916aaa46a407)
+
+* コメント機能
+[![Image from Gyazo](https://i.gyazo.com/fe3394f5b755a049123784bb38826e8e.gif)](https://gyazo.com/fe3394f5b755a049123784bb38826e8e)
+
+* ログアウト機能
+[![Image from Gyazo](https://i.gyazo.com/9b87ce39d7ae1eaf7128f83f5402f4af.gif)](https://gyazo.com/9b87ce39d7ae1eaf7128f83f5402f4af)
 
 ## テスト
 
 * RSpec
   * 単体テスト(model)
-    * [ユーザー管理単体テスト](https://gyazo.com3e6783a811470ab12fa2cc96570ad303)
-    * [投稿単体テスト](https://gyazo.com/e44f3cdcb9c81b81080feb4eeb32ca30)
+    * ユーザー管理単体テスト
+    [![Image from Gyazo](https://i.gyazo.com/68bb60edd0bf3d730c8b191ad6638f27.gif)](https://gyazo.com/68bb60edd0bf3d730c8b191ad6638f27)
+
+    * 投稿単体テスト
+    [![Image from Gyazo](https://i.gyazo.com/e44f3cdcb9c81b81080feb4eeb32ca30.gif)](https://gyazo.com/e44f3cdcb9c81b81080feb4eeb32ca30)
 
 
 ## 本番環境
