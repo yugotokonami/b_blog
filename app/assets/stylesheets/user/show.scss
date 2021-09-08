@@ -1,15 +1,26 @@
+.my-title {
+  background-color: #28cc95;
+  width: 100%;
+  height: 200px;
+}
+
 .my-header-title {
   text-align: center;
+  font-family: serif;
+  text-transform: uppercase;
+  letter-spacing: -2px;
 }
 
 .my-header-text {
   left: 38%;
-  position: absolute;
+  // position: absolute;
   text-decoration: none !important;
-  color: white;
+  color: #f1ebe5;
   font-family: serif;
   font-size: 12vh;
-  text-transform: uppercase;
+  text-shadow: 0 13.36px 8.896px #c4b59d,0 -2px 1px #fff;
+  letter-spacing: -4px;
+  // text-transform: uppercase;
 }
 
 .second-header {

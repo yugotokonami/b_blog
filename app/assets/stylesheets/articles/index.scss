@@ -2,7 +2,7 @@
 .title {
   background-color: #28cc95;
   width: 100%;
-  height: 200px;
+  height: 680px;
   // border-radius: 5px;
   // position: relative;
   overflow: hidden;
@@ -10,13 +10,25 @@
 }
 
 .title-content {
+  padding-top: 20%;
+  padding-left: 50px;
   left: 38%;
-  position: absolute;
+  // position: absolute;
   color: white;
   text-align: center;
-  font-size: 12vh;
+  // font-size: 12vh;
   font-family: serif;
   text-transform: uppercase;
+  letter-spacing: -2px;
+  // text-transform: uppercase;
+}
+
+.title-content span {
+  font-size: 150px;
+  line-height: 80px;
+  color: #f1ebe5;
+  text-shadow: 0 13.36px 8.896px #c4b59d,0 -2px 1px #fff;
+  letter-spacing: -4px;
 }
 
 .top-botton {
@@ -159,45 +171,6 @@
 
 .logout:hover::after {
   transform: scale(1, 1);
-}
-
-.box {
-  border-radius: 5px;
-  overflow: hidden;
-}
-
-.wave {
-  justify-content: center;
-  opacity: .4;
-  position: absolute;
-  top: 3%;
-  left: 46%;
-  background: #43a382;
-  width: 500px;
-  height: 500px;
-  margin-left: -250px;
-  margin-top: -250px;
-  transform-origin: 60%;
-  border-radius: 40%;
-  animation: drift 3000ms infinite linear;
-}
-
-.wave.-two {
-  justify-content: center;
-  animation: drift 7000ms infinite linear;
-  opacity: .1;
-  background: #72d5b4;
-}
-
-.wave.-three {
-  justify-content: center;
-  background-color: #67ba9e;
-  animation: drift 5000ms infinite linear;
-}
-
-@keyframes drift {
-  from { transform: rotate(0deg); }
-  from { transform: rotate(360deg); }
 }
 // タイトル部分 //
 
